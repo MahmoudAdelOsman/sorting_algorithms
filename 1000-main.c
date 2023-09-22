@@ -46,10 +46,11 @@ deck_node_t *init_deck(const card_t cards[52])
 int main(void)
 {
 	card_t cards[52] = {
-		{"Jack", CLUB}, {"4", HEART}, {"3", HEART}, {"3", DIAMOND}
-		, {"Queen", HEART}, {"5", HEART}, {"5", SPADE}
-		, {"10", HEART}, {"6", HEART}, {"5", DIAMOND}, {"6", SPADE}
-		, {"9", HEART}, {"7", DIAMOND}, {"Jack", SPADE}
+		{"Jack", CLUB}, {"4", HEART}, {"3", HEART}
+		, {"3", DIAMOND}, {"Queen", HEART}, {"5", HEART}
+		, {"5", SPADE}, {"10", HEART}, {"6", HEART}
+		, {"5", DIAMOND}, {"6", SPADE}, {"9", HEART}
+		, {"7", DIAMOND}, {"Jack", SPADE}
 		, {"Ace", DIAMOND}, {"9", CLUB}, {"Jack", DIAMOND}
 		, {"7", SPADE}, {"King", DIAMOND}, {"10", CLUB}
 		, {"King", SPADE}, {"8", CLUB}, {"9", SPADE}
